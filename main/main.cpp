@@ -99,7 +99,7 @@ while (1)
         detect++;
         printf("Detected %s (%f %f %f)\r\n", ei_classifier_inferencing_categories[2], result.classification[2].value,result.classification[1].value,result.classification[0].value);
       
-      if (detect > 1 || gpio_get_level(GPIO_NUM_9) == 0 ) //wait for 2 consecutive detections
+      if (detect > 0 || gpio_get_level(GPIO_NUM_9) == 0 ) //wait for 2 consecutive detections
       {
        if (gpio_get_level(GPIO_NUM_9) != 0 ) wake_word_detected = true;
        //reset and unregister the edge impulse pipeline
