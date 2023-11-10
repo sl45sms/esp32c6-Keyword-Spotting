@@ -82,6 +82,7 @@ run_classifier_init();//to prevent remaining data from previous runs
 
 start_ei_pipeline();//start the pipeline
 int detect=0;
+light(false,false);//turn off the led
 while (1)
 {
 
@@ -159,7 +160,9 @@ int16_t count = 0;
 while (1) {
     ESP_LOGI(TAG, "[ 7 ] - Detected Count %d", count++);
     detect_wake_word_start();
-    vTaskDelay(10 / portTICK_PERIOD_MS); //to prevent the task timeout
+    light(true,false); //turn on the led
+    //delay for 1 second to
+    vTaskDelay(1000 / portTICK_PERIOD_MS);
 }//loop end
 
 }
