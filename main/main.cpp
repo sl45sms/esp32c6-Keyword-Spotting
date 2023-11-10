@@ -122,7 +122,7 @@ while (1)
 //use extern c to be able to complile c++ code
 extern "C" void app_main(void)
 {
-    esp_log_level_set("*", ESP_LOG_WARN);
+    esp_log_level_set("*", ESP_LOG_ERROR);
     esp_log_level_set(TAG, ESP_LOG_INFO);
     
     light(false,true);//init the led at gpio8 to indicate recording
