@@ -1,21 +1,10 @@
-MIT License
+Unless specifically indicated otherwise in a file, files are licensed under the Apache 2.0 license, as can be found in: LICENSE-apache-2.0.txt
 
-Copyright (c) 2023 Panagiotis
+Folders containing files under different permissive license than Apache 2.0 are listed below. Each folder contains its own license specified for its files.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* edge-impulse-sdk/CMSIS - Apache 2.0
+* edge-impulse-sdk/dsp/kissfft - BSD-3-Clause
+* edge-impulse-sdk/dsp/dct - MIT
+* edge-impulse-sdk/tensorflow - Apache 2.0
+* edge-impulse-sdk/third_party/flatbuffers - Apache 2.0
+* edge-impulse-sdk/third_party/gemmlowp - Apache 2.0

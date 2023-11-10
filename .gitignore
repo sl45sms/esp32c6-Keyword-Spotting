@@ -1,0 +1,7 @@
+build
+managed_components
+.DS_Store
+*.wav
+sdkconfig.old
+model
+.vscode
