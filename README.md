@@ -37,6 +37,7 @@ Make a change to `edge-inpulse-sdk/porting/ei_classifier_porting.h` to include
 # how to use
 just say the word "vrasida" and the LED will light up. (yes it is beter to train a model with easier word, but I am too lazy to do that,use your own model if you want to do that)
 
+look at this short vide: https://youtube.com/shorts/2j4c8Rp61rA
 
 # some notes 
 be sure you have checked the CONFIG_FREERTOS_ENABLE_BACKWARD_COMPATIBILITY=y in sdkconfig or else ADF will not be compiled.
