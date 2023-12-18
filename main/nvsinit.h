@@ -1,0 +1,1 @@
+void nvsinit(void);
